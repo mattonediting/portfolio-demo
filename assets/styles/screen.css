@@ -433,7 +433,23 @@ template {
   font-weight: 700;
 }
 
-
+/**
+ * Desktop Styles
+ */
+@media screen and (min-width: 800px) {
+  .main-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .main-nav-list {
+    display: flex;
+    align-items: center;
+  }
+.main-nav-item {
+  border: none;
+  }
+}
 
 
 
